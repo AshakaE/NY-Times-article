@@ -8,3 +8,7 @@ ul {
 li {
     float: left;
 }
+
+.section-body {
+    text-align: center;
+}
