@@ -6,6 +6,13 @@ p {
     font-weight: 400;
 }
 
+caption {
+    font-family: nyt-imperial, georgia, "times new roman", times, serif;
+    line-height: 30px;
+    color: #777;
+    font-size: 20px;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -20,3 +27,23 @@ li {
 .section-body {
     text-align: center;
 }
+
+.menu {}
+
+.news-menu {
+    width: 75%;
+    float: left;
+}
+
+.popular-menu {
+    width: 25%;
+    float: left;
+}
+
+.base-grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 120px 0;
+}
+
+.grid-item {}
