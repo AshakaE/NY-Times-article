@@ -1,9 +1,30 @@
-p {
+/* page setup */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
     font-family: nyt-imperial, georgia, "times new roman", times, serif;
+    font-weight: 400;
+}
+
+/* main styling */
+
+p {
     font-size: 20px;
     line-height: 30px;
     color: #333333;
-    font-weight: 400;
 }
 
 ul {
@@ -19,4 +40,13 @@ li {
 
 .section-body {
     text-align: center;
+}
+
+
+/* footer styles */
+
+
+footer {
+    font-size: 11px;
+    line-height: 20px;
 }
