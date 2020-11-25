@@ -1,4 +1,13 @@
-p {
+main {
+    margin: 80px 300px;
+}
+
+.image-div {
+    /* float: left; */
+    margin: 0 -100px;
+}
+
+.main-articles {
     font-family: nyt-imperial, georgia, "times new roman", times, serif;
     font-size: 20px;
     line-height: 30px;
@@ -26,6 +35,11 @@ li {
 
 .section-body {
     text-align: center;
+}
+
+.mini-articles {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
 }
 
 .menu {}
