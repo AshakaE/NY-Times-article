@@ -15,6 +15,23 @@ main {
     font-weight: 400;
 }
 
+.main-articles h3 {
+    margin: 0 10px;
+}
+
+.mini-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mini-flex-container-top {
+    display: flex;
+}
+
+.mini-flex-container-bottom {
+    display: flex;
+}
+
 caption {
     font-family: nyt-imperial, georgia, "times new roman", times, serif;
     line-height: 30px;
