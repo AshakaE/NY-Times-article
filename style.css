@@ -40,10 +40,9 @@ li {
     float: left;
 }
 
-.base-grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 120px 0;
+.base-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
-
-.grid-item {}
