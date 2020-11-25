@@ -44,28 +44,60 @@ li {
 
 /* Navigation styles */
 
+.header-container {
+    height: 4rem;
+}
+
+.header-all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e2e2e2;
+    margin: 0 auto;
+    max-width: 100%;
+    padding-right: 145px;
+    padding-left: 145px;
+}
+
+.header-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    /* padding-right: 60px; */
+}
+
+.header-2 {
+    padding-left: 6px;
+    padding-bottom: 3px;
+}
+
 footer {
     font-size: 11px;
     line-height: 20px;
+    margin-bottom: 15px;
 }
 
-.NYT-logo {
+.nyt-logo {
     display: block;
     vertical-align: middle;
     height: 40px;
-    width: 180px;
+    width: 190px;
+    margin-top: 3px;
+    margin-bottom: 0;
 }
 
 .button-icon {
-    padding: 8px 9px 9px;
+    padding: 8px 10px 9px;
     background-color: transparent;
     border: 0;
     margin-right: 7px;
+    vertical-align: middle;
 }
 
 .top-nav__icon {
     display: inline-block;
-    height: 15px;
+    height: 16px;
     outline: none;
 }
 
@@ -81,7 +113,7 @@ footer {
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     letter-spacing: 0.2px;
     line-height: 20px;
-    font-weight: 700;
+    font-weight: 600;
     transition: .7s;
 }
 
@@ -99,7 +131,7 @@ footer {
     font-weight: 700;
     letter-spacing: 0.01rem;
     color: white;
-    padding: 8px 11px 7px;
+    padding: 12px 11px 7px;
     border-radius: 4px;
     cursor: pointer;
     font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -133,7 +165,7 @@ footer {
     text-decoration: underline;
 }
 
-.bottom-nav__link-icon{
+.bottom-nav__link-icon {
     display: inline-block;
     width: 13px;
     height: 13px;
@@ -163,7 +195,64 @@ footer {
     font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
+.bottom-nav {
+    border-top: 1px solid #ebebeb;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.bottom-nav__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.bottom-nav__head-2 {
+    padding-bottom: 12px;
+}
+
+.bottom-nav__body {
+    margin-top: 10px;
+}
+
 .footer-link {
     color: #666;
     text-decoration: none;
+    padding: 0 10px 0 0;
+}
+
+.footer-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    border-top: 1px solid #ebebeb;
+    width: 1200px;
+    text-align: center;
+    flex-basis: 100%;
+    padding-left: 40px;
+    /* padding-bottom: 35px; */
+}
+
+.footer-links__1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+    width: auto;
+}
+
+.footer-links__2 {
+    display: flex;
+    margin: 0 auto;
+    margin-left: -18px;
+    padding: 10px;
+}
+
+.footer-links__2, li {
+    padding-right: 5px;
 }
