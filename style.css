@@ -66,6 +66,259 @@ li {
 	text-align: center;
 }
 
+/* Navigation styles */
+
+.header-container {
+	height: 4rem;
+}
+
+.header-all {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #e2e2e2;
+	margin: 0 auto;
+	max-width: 100%;
+	padding-right: 145px;
+	padding-left: 145px;
+}
+
+.header-1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	/* padding-right: 60px; */
+}
+
+.header-2 {
+	padding-left: 6px;
+	padding-bottom: 3px;
+}
+
+footer {
+	font-size: 11px;
+	line-height: 20px;
+	margin-bottom: 15px;
+}
+
+.nyt-logo {
+	display: block;
+	vertical-align: middle;
+	height: 40px;
+	width: 190px;
+	margin-top: 3px;
+	margin-bottom: 0;
+}
+
+.button-icon {
+	padding: 8px 10px 9px;
+	background-color: transparent;
+	border: 0;
+	margin-right: 7px;
+	vertical-align: middle;
+}
+
+.top-nav__icon {
+	display: inline-block;
+	height: 16px;
+	outline: none;
+}
+
+.button-icon:hover {
+	background-color: #f7f7f7;
+	cursor: pointer;
+}
+
+.top-nav__link {
+	color: #000000;
+	text-decoration: none;
+	font-size: 1.4rem;
+	font-family: nyt-franklin, helvetica, arial, sans-serif;
+	letter-spacing: 0.2px;
+	line-height: 20px;
+	font-weight: 600;
+	transition: .7s;
+}
+
+.top-nav__link:hover {
+	text-decoration: underline;
+}
+
+.top-nav__button {
+	background-color: #567b95;
+	border: 1px solid #326891;
+	margin-right: 7px;
+	font-size: 11px;
+	line-height: 11px;
+	white-space: nowrap;
+	font-weight: 700;
+	letter-spacing: 0.01rem;
+	color: white;
+	padding: 12px 11px 7px;
+	border-radius: 4px;
+	cursor: pointer;
+	font-family: nyt-franklin, helvetica, arial, sans-serif;
+	transition: .4s;
+}
+
+.top-nav__button:hover {
+	background-color: #326891;
+}
+
+.home-page {
+	color: #567b95;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+.bottom-nav__link {
+	display: inline;
+	font-family: nyt-franklin, helvetica, arial, sans-serif;
+	text-transform: capitalize;
+	font-size: 1.4rem;
+	height: 23px;
+	font-weight: 500;
+	line-height: 16px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.bottom-nav__link:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.bottom-nav__link-icon {
+	display: inline-block;
+	width: 13px;
+	height: 13px;
+	margin-right: 7px;
+	vertical-align: middle;
+}
+
+.bottom-nav__link-bold {
+	font-weight: 700;
+	font-size: 1.6rem;
+	line-height: 1.5rem;
+	width: 15rem;
+	height: 2.5rem;
+	font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+.bottom-nav__link-small {
+	font-size: 11px;
+}
+
+.bottom-nav__header {
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 15px;
+	width: 150px;
+	color: #333333;
+	font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+.bottom-nav {
+	border-top: 1px solid #ebebeb;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.section-all {
+	display: flex;
+	height: 600px;
+}
+
+.bottom-nav__head {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.bottom-nav__head-2 {
+	padding-bottom: 12px;
+}
+
+.bottom-nav__body {
+	margin-top: 10px;
+	width: 322px;
+}
+
+.bottom-nav__list {
+	display: flex;
+	flex-direction: column;
+	padding: 6px 0;
+	flex-wrap: nowrap;
+}
+
+.bottom-nav__list, li {
+	padding-bottom: 8px;
+	word-spacing: 1px;
+}
+
+.bottom-nav__side {
+	display: flex;
+	flex-direction: column;
+	margin-top: 8px;
+}
+
+.bottom-nav__side-1 {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+}
+
+.bottom-nav__side-2 {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+}
+
+/* footer styles */
+
+.footer-link {
+	color: #666;
+	text-decoration: none;
+	padding: 0 10px 0 0;
+}
+
+.footer-link:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.footer-links {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin: 0 auto;
+	border-top: 1px solid #ebebeb;
+	width: 1200px;
+	text-align: center;
+	flex-basis: 100%;
+	padding-left: 40px;
+	/* padding-bottom: 35px; */
+}
+
+.footer-links__1 {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px 10px;
+	width: auto;
+}
+
+.footer-links__2 {
+	display: flex;
+	margin: 0 auto;
+	margin-left: -18px;
+	padding: 10px;
+}
+
+.footer-links__2, li {
+	padding-right: 5px;
+}
+
 .mini-articles {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-size: 13px;
