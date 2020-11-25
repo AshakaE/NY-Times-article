@@ -2,17 +2,17 @@
 
 # Project Name
 
-> One paragraph statement about the project.
+Positioning and Floating Elements
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+This project is a clone of New York Times articles section.
 
 ## Built With
 
-- Major languages
+- HTML,CSS
 - Frameworks
-- Technologies used
+- linters
 
 ## Live Demo
 
@@ -45,15 +45,13 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@AshakaE](https://github.com/AshakaE)
+
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@SamArsanios](https://github.com/SamArsanios)
+
 
 ## 🤝 Contributing
 
@@ -73,4 +71,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is a test project
