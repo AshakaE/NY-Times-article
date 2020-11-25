@@ -42,11 +42,128 @@ li {
     text-align: center;
 }
 
-
-/* footer styles */
-
+/* Navigation styles */
 
 footer {
     font-size: 11px;
     line-height: 20px;
+}
+
+.NYT-logo {
+    display: block;
+    vertical-align: middle;
+    height: 40px;
+    width: 180px;
+}
+
+.button-icon {
+    padding: 8px 9px 9px;
+    background-color: transparent;
+    border: 0;
+    margin-right: 7px;
+}
+
+.top-nav__icon {
+    display: inline-block;
+    height: 15px;
+    outline: none;
+}
+
+.button-icon:hover {
+    background-color: #f7f7f7;
+    cursor: pointer;
+}
+
+.top-nav__link {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+    font-weight: 700;
+    transition: .7s;
+}
+
+.top-nav__link:hover {
+    text-decoration: underline;
+}
+
+.top-nav__button {
+    background-color: #567b95;
+    border: 1px solid #326891;
+    margin-right: 7px;
+    font-size: 11px;
+    line-height: 11px;
+    white-space: nowrap;
+    font-weight: 700;
+    letter-spacing: 0.01rem;
+    color: white;
+    padding: 8px 11px 7px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    transition: .4s;
+}
+
+.top-nav__button:hover {
+    background-color: #326891;
+}
+
+.home-page {
+    color: #567b95;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+.bottom-nav__link {
+    display: inline;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    height: 23px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.bottom-nav__link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.bottom-nav__link-icon{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin-right: 7px;
+    vertical-align: middle;
+}
+
+.bottom-nav__link-bold {
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.5rem;
+    width: 15rem;
+    height: 2.5rem;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+.bottom-nav__link-small {
+    font-size: 11px;
+}
+
+.bottom-nav__header {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15px;
+    width: 150px;
+    color: #333333;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+.footer-link {
+    color: #666;
+    text-decoration: none;
 }
