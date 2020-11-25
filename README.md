@@ -2,7 +2,7 @@
 
 # Project Name
 
-Positioning and Floating Elements
+New York Times Articles Page Clone
 
 ![screenshot](./app_screenshot.png)
 
@@ -16,7 +16,7 @@ This project is a clone of New York Times articles section.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://ashakae.github.io/NY-Times-article/)
 
 
 ## Getting Started
