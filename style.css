@@ -383,6 +383,16 @@ footer {
 	float: left;
 }
 
+.popular-details {
+	border-bottom: 1px solid rgb(226, 226, 226);
+	color: rgb(18, 18, 18);
+	font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+	font-weight: 500;
+	font-size: 19px;
+	line-height: 23px;
+	padding: 20px 0;
+}
+
 .base-flex-container {
 	display: flex;
 	flex-wrap: wrap;
