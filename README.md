@@ -4,7 +4,7 @@
 
 New York Times Articles Page Clone
 
-![screenshot](./app_screenshot.png)
+![screenshot](./app_screenshott.JPG)
 
 This project is a clone of New York Times articles section.
 
