@@ -1,9 +1,12 @@
-body {
-	max-width: 1920px;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-main {
-	margin: 80px 380px;
+.container {
+	margin: 8rem auto;
+	max-width: 120rem;
 }
 
 .image-div {
@@ -71,16 +74,23 @@ li {
 	text-align: center;
 }
 
-.section-body h1 {
+.top-heading {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2.5rem;
+	height: 96px;
+}
+
+.top-heading h1 {
 	font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
 	font-weight: 700;
 	font-style: italic;
 	font-size: 40px;
 	line-height: 48px;
 	color: #121212;
-	text-align: center;
-	width: 600px;
-	margin: 0 20px 1rem;
+	text-align: left;
+	
 }
 
 .aside-container {
