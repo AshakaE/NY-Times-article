@@ -420,25 +420,31 @@ footer {
 	padding: 20px 0;
 }
 
-.base-flex-container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(3, max-content);
+	grid-template-rows: repeat(2, 1fr);
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
 }
 
-.flex-item {
-	margin: 0 25px 0 0;
+.grid-item {
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	width: auto;
 }
 
-.base-flex-top {
-	display: flex;
-	margin: 0 0 25px 0px;
+.grid-item p {
+	display: block;
+	width: 300px;
+	margin: 0 auto ;
 }
-
-.base-flex-bottom {
-	display: flex;
-	margin: 0 25px 25px 0px;
+.grid-item small {
+	display: block;
+	/* width: 300px; */
 }
 
 .editors-pick {
