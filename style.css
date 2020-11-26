@@ -5,13 +5,14 @@
 }
 
 .container {
-	margin: 8rem auto;
+	margin: 6rem auto;
 	max-width: 120rem;
 }
 
-.image-div {
-	/* float: left; */
-	margin: 0 -100px;
+.top-image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .main-articles {
@@ -54,9 +55,16 @@
 .article-captions {
 	font-family: georgia, "times new roman", times, serif;
 	line-height: 20px;
-	color: #c90f0f;
+	color: #666666;
 	font-size: 15px;
 	font-weight: 400;
+	margin: 10px 285px 0 0;
+}
+
+.article-captions small {
+	color: #888888;
+	font-size: 13px;
+	font-family: nyt-imperial, georgia, "times new roman", times, serif;
 }
 
 ul {
@@ -71,14 +79,16 @@ li {
 }
 
 .section-body {
-	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1200px;
 }
 
 .top-heading {
 	width: 600px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 2.5rem;
+	margin-bottom: 2rem;
 	height: 96px;
 }
 
@@ -90,7 +100,6 @@ li {
 	line-height: 48px;
 	color: #121212;
 	text-align: left;
-	
 }
 
 .aside-container {
@@ -126,17 +135,17 @@ li {
 	height: 44px;
 	top: 0;
 	left: 0;
+	border-bottom: 1px solid #e2e2e2;
 }
 
 .header-all {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	border-bottom: 1px solid #e2e2e2;
 	margin: 0 auto;
-	max-width: 100%;
-	padding-right: 10px;
-	padding-left: 10px;
+	max-width: 1920px;
+	padding-right: 140px;
+	padding-left: 140px;
 }
 
 .header-1 {
@@ -144,7 +153,10 @@ li {
 	justify-content: space-between;
 	align-items: center;
 	text-align: center;
-	/* padding-right: 60px; */
+}
+
+.header-1 button {
+	margin-right: 12px;
 }
 
 .header-2 {
@@ -171,7 +183,6 @@ footer {
 	padding: 8px 10px 9px;
 	background-color: transparent;
 	border: 0;
-	margin-right: 7px;
 	vertical-align: middle;
 }
 
@@ -189,11 +200,12 @@ footer {
 .top-nav__link {
 	color: #000000;
 	text-decoration: none;
-	font-size: 1.4rem;
+	font-size: 14px;
 	font-family: nyt-franklin, helvetica, arial, sans-serif;
 	letter-spacing: 0.2px;
-	line-height: 20px;
-	font-weight: 600;
+	line-height: 19px;
+	letter-spacing: .7px;
+	font-weight: 700;
 	transition: .7s;
 }
 
