@@ -195,7 +195,7 @@ footer {
 	display: inline;
 	font-family: nyt-franklin, helvetica, arial, sans-serif;
 	text-transform: capitalize;
-	font-size: 1.4rem;
+	font-size: 14px;
 	height: 23px;
 	font-weight: 500;
 	line-height: 16px;
@@ -218,11 +218,14 @@ footer {
 
 .bottom-nav__link-bold {
 	font-weight: 700;
-	font-size: 1.6rem;
-	line-height: 1.5rem;
-	width: 15rem;
-	height: 2.5rem;
+	font-size: 16px;
 	font-family: nyt-franklin, helvetica, arial, sans-serif;
+	height: 25px;
+	width: 150px;
+	text-decoration: none;
+	text-transform: capitalize;
+	line-height: 15px;
+	padding-bottom: 0px;
 }
 
 .bottom-nav__link-small {
@@ -280,6 +283,9 @@ footer {
 	display: flex;
 	flex-direction: column;
 	margin-top: 8px;
+	border-left: 1px solid rgb(226, 226, 226);
+	padding-left: 15px;
+	width: 301px;
 }
 
 .bottom-nav__side-1 {
@@ -292,6 +298,23 @@ footer {
 	display: flex;
 	flex-direction: column;
 	flex-basis: 100%;
+	border-top: 1px solid rgb(226, 226, 226);
+	margin-top: -40px;
+	padding-top: 15px;
+}
+
+.bottom-nav__side-1 ul {
+	display: flex;
+	flex-direction: column;
+}
+
+.bottom-nav__side-1 ul {
+	padding-bottom: 20px;
+}
+
+.bottom-nav__side-2 ul {
+	display: flex;
+	flex-direction: column;
 }
 
 /* footer styles */
