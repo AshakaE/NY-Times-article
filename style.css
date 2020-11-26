@@ -244,12 +244,13 @@ footer {
 .bottom-nav {
 	border-top: 1px solid #ebebeb;
 	width: 1200px;
-	margin: 0 auto;
+	margin-left: 370px;
 }
 
 .section-all {
 	display: flex;
 	height: 600px;
+	margin-bottom: 10px;
 }
 
 .bottom-nav__head {
@@ -308,8 +309,12 @@ footer {
 	flex-direction: column;
 }
 
-.bottom-nav__side-1 ul {
-	padding-bottom: 20px;
+.first li:not(:last-child) {
+	padding-top: 5px;
+}
+
+.bottom-nav__side-1 ul.next {
+	padding-top: 18px;
 }
 
 .bottom-nav__side-2 ul {
