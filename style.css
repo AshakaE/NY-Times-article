@@ -45,10 +45,9 @@ main {
 }
 
 .article-captions {
-	font-family:  georgia, "times new roman", times, serif;
+	font-family: georgia, "times new roman", times, serif;
 	line-height: 20px;
-	color: #c90f0f
-	font-size: 15px;
+	color: #c90f0f font-size: 15px;
 	font-weight: 400;
 }
 
@@ -99,8 +98,8 @@ li {
 	border-bottom: 1px solid #e2e2e2;
 	margin: 0 auto;
 	max-width: 100%;
-	padding-right: 145px;
-	padding-left: 145px;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 
 .header-1 {
