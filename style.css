@@ -44,11 +44,12 @@ main {
 	display: flex;
 }
 
-caption {
-	font-family: nyt-imperial, georgia, "times new roman", times, serif;
-	line-height: 30px;
-	color: #777;
-	font-size: 20px;
+.article-captions {
+	font-family:  georgia, "times new roman", times, serif;
+	line-height: 20px;
+	color: #c90f0f
+	font-size: 15px;
+	font-weight: 400;
 }
 
 ul {
@@ -64,6 +65,18 @@ li {
 
 .section-body {
 	text-align: center;
+}
+
+.section-body h1 {
+	font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 40px;
+	line-height: 48px;
+	color: #121212;
+	text-align: center;
+	width: 600px;
+	margin: 0 20px 1rem;
 }
 
 /* Navigation styles */
