@@ -1,5 +1,9 @@
+body {
+	max-width: 1920px;
+}
+
 main {
-	margin: 80px 450px;
+	margin: 80px 380px;
 }
 
 .image-div {
@@ -47,7 +51,8 @@ main {
 .article-captions {
 	font-family: georgia, "times new roman", times, serif;
 	line-height: 20px;
-	color: #c90f0f font-size: 15px;
+	color: #c90f0f;
+	font-size: 15px;
 	font-weight: 400;
 }
 
@@ -82,8 +87,8 @@ li {
 	position: absolute;
 	width: 20%;
 	float: right;
-	margin-left: 1020px;
-	margin-top: -3200px;
+	margin-left: 733px;
+	margin-top: -3600px;
 }
 
 .aside-container h3 {
@@ -93,7 +98,7 @@ li {
 
 .aside-pick__1 {
 	display: flex;
-	margin-bottom: 20px;	
+	margin-bottom: 20px;
 }
 
 .aside-pick__1 img {
