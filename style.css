@@ -412,11 +412,6 @@ footer {
 	font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
-.bottom-nav {
-	width: 1200px;
-	padding-left: 370px;
-}
-
 .section-article {
 	max-width: 1200px;
 	margin: 0 auto;
@@ -498,6 +493,10 @@ footer {
 	flex-direction: column;
 }
 
+.bottom-nav {
+	margin-top: -18.5px;
+}
+
 /* footer styles */
 
 .footer-link {
@@ -555,23 +554,58 @@ footer {
 	letter-spacing: .05em;
 }
 
+.news-container {
+	/* display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-template-rows: 1fr;
+	grid-column-gap: 31px;
+	grid-row-gap: 0px;
+	height: min-content; */
+	display: flex;
+	/* flex-direction: column; */
+	width: max-content;
+	flex-wrap: nowrap;
+	margin-bottom: 20px;
+	border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.news-item {
+	background-color: rgba(255, 255, 255, 0.8);
+	/* border: 1px solid rgba(0, 0, 0, 0.8); */
+	padding-right: 20px;
+}
+
+.news-item h2 {
+	margin-top: 15px;
+	border-top: 1px solid rgb(0, 0, 0);
+	padding: 15px 0;
+	font-size: 16px;
+	font-weight: 700;
+	font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
 .menu {
-	width: 1200px;
-	margin: 0 auto;
+	/* margin: 0 auto; */
 }
 
 .news-menu {
-	width: 50%;
-	float: left;
+	/* border-top: 1px solid rgb(0, 0, 0); */
+}
+
+.news-menu h2 {
 	border-top: 1px solid rgb(0, 0, 0);
-	margin-left: 200px;
-	margin-right: 60px;
+	margin-top: 15px;
+	padding: 15px 0;
+	font-size: 16px;
+	font-weight: 700;
+	font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
 .popular-menu {
-	width: 25%;
-	float: left;
-	border-top: 1px solid rgb(0, 0, 0);
+	/* width: 25%; */
+	/* float: left; */
+	max-width: 318px;
+	/* margin: 0 auto; */
 }
 
 .popular-details {
@@ -592,18 +626,26 @@ footer {
 	grid-row-gap: 20px;
 }
 
+.grid-container-1 {
+	display: grid;
+	grid-template-columns: repeat(3, max-content);
+	grid-template-rows: 1fr;
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+}
+
 .grid-item {
 	background-color: rgba(255, 255, 255, 0.8);
 	font-size: 18px;
 	line-height: 22px;
 	text-align: center;
-	width: auto;
+	width: 273px;
 }
 
 .grid-item p {
 	display: block;
-	width: 300px;
-	margin: 0 auto;
+	width: 273px;
+	margin: 5px auto;
 }
 
 .grid-item small {
