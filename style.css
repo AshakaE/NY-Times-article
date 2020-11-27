@@ -88,7 +88,6 @@
 
 .figure-item {
 	background-color: rgba(255, 255, 255, 0.8);
-	/* border: 1px solid rgba(0, 0, 0, 0.8); */
 	font-size: 30px;
 	text-align: left;
 }
@@ -226,13 +225,6 @@ li {
 
 .aside-container {
 	position: absolute;
-	/* display: ; */
-	/* margin-left: auto; */
-	/* margin-right: 400px; */
-	/* display: flex; */
-	/* width: 25%; */
-	/* margin-left: auto; */
-	/* float: right; */
 	padding-left: 950px;
 	margin-top: -1500px;
 }
@@ -536,7 +528,6 @@ footer {
 	text-align: center;
 	flex-basis: 100%;
 	padding-left: 40px;
-	/* padding-bottom: 35px; */
 }
 
 .footer-links__1 {
@@ -571,14 +562,9 @@ footer {
 }
 
 .news-container {
-	/* display: grid;
-	grid-template-columns: 2fr 1fr;
-	grid-template-rows: 1fr;
-	grid-column-gap: 31px;
-	grid-row-gap: 0px;
-	height: min-content; */
 	display: flex;
-	/* flex-direction: column; */
+	width: -webkit-max-content;
+	width: -moz-max-content;
 	width: max-content;
 	flex-wrap: nowrap;
 	margin-bottom: 20px;
@@ -588,7 +574,6 @@ footer {
 
 .news-item {
 	background-color: rgba(255, 255, 255, 0.8);
-	/* border: 1px solid rgba(0, 0, 0, 0.8); */
 	padding-right: 20px;
 }
 
@@ -601,13 +586,6 @@ footer {
 	font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
-.menu {
-	/* margin: 0 auto; */
-}
-
-.news-menu {
-	/* border-top: 1px solid rgb(0, 0, 0); */
-}
 
 .news-menu h2 {
 	border-top: 1px solid rgb(0, 0, 0);
@@ -619,10 +597,7 @@ footer {
 }
 
 .popular-menu {
-	/* width: 25%; */
-	/* float: left; */
 	max-width: 318px;
-	/* margin: 0 auto; */
 }
 
 .popular-details {
@@ -637,6 +612,7 @@ footer {
 
 .grid-container {
 	display: grid;
+	grid-template-columns: repeat(3, -webkit-max-content);
 	grid-template-columns: repeat(3, max-content);
 	grid-template-rows: repeat(2, 1fr);
 	grid-column-gap: 20px;
@@ -645,6 +621,7 @@ footer {
 
 .grid-container-1 {
 	display: grid;
+	grid-template-columns: repeat(3, -webkit-max-content);
 	grid-template-columns: repeat(3, max-content);
 	grid-template-rows: 1fr;
 	grid-column-gap: 20px;
@@ -667,7 +644,6 @@ footer {
 
 .grid-item small {
 	display: block;
-	/* width: 300px; */
 }
 
 .grid-item p {
