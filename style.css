@@ -1,3 +1,8 @@
+@font-face {
+  font-family: nyt-cheltenham-small;
+  src: url(https://g1.nyt.com/fonts/css/web-fonts.5810def60210a2fa7d0848f37e3fa048bb6147b1.css);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -245,7 +250,7 @@ li {
 }
 
 .aside-container p {
-  font-family: nyt-cheltenham-small, georgia, "times new roman";
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
   font-size: 14px;
   line-height: 17px;
   font-weight: 500;
@@ -493,7 +498,7 @@ li {
   flex-direction: column;
 }
 
-.first li:not(:last-child) {
+.first li {
   padding-top: 5px;
 }
 
@@ -549,8 +554,7 @@ li {
   padding: 10px;
 }
 
-.footer-links__2,
-li {
+.footer-links__2 li {
   padding-right: 5px;
 }
 
@@ -569,8 +573,9 @@ li {
 
 .news-container {
   display: flex;
-  width: -webkit-max-content;
-  width: -moz-max-content;
+
+  /* width: -webkit-max-content;
+  width: -moz-max-content; */
   width: max-content;
   flex-wrap: nowrap;
   margin-bottom: 20px;
@@ -617,7 +622,8 @@ li {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(3, -webkit-max-content);
+
+  /* grid-template-columns: repeat(3, -webkit-max-content); */
   grid-template-columns: repeat(3, max-content);
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 20px;
@@ -626,7 +632,8 @@ li {
 
 .grid-container-1 {
   display: grid;
-  grid-template-columns: repeat(3, -webkit-max-content);
+
+  /* grid-template-columns: repeat(3, -webkit-max-content); */
   grid-template-columns: repeat(3, max-content);
   grid-template-rows: 1fr;
   grid-column-gap: 20px;
@@ -642,6 +649,12 @@ li {
 }
 
 .grid-item p {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #1a1a1a;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   display: block;
   width: 273px;
   margin: 5px auto;
@@ -649,19 +662,7 @@ li {
 
 .grid-item small {
   display: block;
-}
-
-.grid-item p {
-  text-align: left;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 22px;
-  color: #1a1a1a;
-  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-}
-
-.grid-item small {
-  font-family: nyt-cheltenham-small, georgia, "times new roman";
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
   font-size: 10px;
   line-height: 12px;
   font-weight: 400;
