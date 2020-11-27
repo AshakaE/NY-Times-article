@@ -225,8 +225,9 @@ li {
 }
 
 .aside-container {
-	position: absolute;
+	/* display: flex; */
 	width: 18%;
+	/* margin-left: auto; */
 	float: right;
 	margin-left: 1130px;
 	margin-top: -3600px;
